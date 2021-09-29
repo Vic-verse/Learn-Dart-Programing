@@ -1,0 +1,132 @@
+void main() {
+  print("Hello vivek, How are you:");
+
+  print('-----------------------------------');
+
+// Simple Integers;
+
+  int hexValue = 0xEADEBAEE;
+  print(hexValue);
+
+// Addition :
+
+  print("Addition Program:");
+
+  int a, b, c;
+
+  a = 10;
+
+  print(a);
+
+  b = 20;
+
+  print(b);
+
+  c = a + b;
+
+  print("After Addition : ");
+
+  print(c);
+
+  print('********************************');
+
+  String message = "Lets Do Some Code :";
+
+  print(message);
+
+  print('////////////////////////////////////');
+
+  double d, e, f;
+
+  d = 10.2;
+
+  print(d);
+
+  e = 20.5;
+
+  print(e);
+
+  print("After substraction");
+
+  f = e - d;
+
+  print(f);
+
+  print('---***************************---');
+
+  bool isValid, isNotValid;
+
+  isValid = true;
+
+  print(isValid);
+
+  isNotValid = false;
+
+  print(isNotValid);
+
+  //Simple double
+
+  double exponents = 1.27e6;
+  print(exponents);
+  print('-----------------------------------------');
+
+  print('var datatype is inferred as integer automatically');
+  print('-----------------------------------------');
+
+// we do replace int datatype with var datatype
+
+  // Addition Program:
+
+  var g, h, i;
+
+  g = 1;
+
+  print(g);
+
+  h = 4;
+
+  print(h);
+
+  print("After Addition");
+  i = g + h;
+
+  print(i);
+
+  print('------------------------------------------');
+
+  // String :
+
+  var message1 = "var datatype is is inferred as integer automatically";
+
+  print(message1);
+
+  print('------------------------------------------');
+
+  print('Subtraction program :');
+
+  var j, k, l;
+
+  j = 2.5;
+
+  print(j);
+
+  k = 3.7;
+
+  print(k);
+
+  print('After Subtraction');
+
+  l = k - j;
+
+  print('l');
+
+  print('---***************************---');
+
+  var isOn, isOff;
+
+  isOn = true;
+  print(isOn);
+
+  isOff = false;
+  print(isOff);
+}
