@@ -1,0 +1,94 @@
+// For Better Knowledge we are written an previous code again & again...
+
+void main()
+  
+{
+  // 1. 
+  
+  /* Literals:  when we directly written (int value), (String s1), 
+    (double value), (boolean value) not only in dart but many another languages as well. 
+  */
+  
+ // first example
+  
+  'rohit';
+    21;
+    21.2;
+    true;  
+    
+   
+  // another example not for literals   NOW WE ASSIGN THE VALUE OF VARIABLES:
+   
+  int i = 21;
+  var j = 22;
+  print(i);
+  print(j);
+  
+  
+  //VARIOUS WAY TO DEFINE STRING LITERALS IN DART 
+  String s1 = 'Hello, How are you';
+  
+ // correct string is:  
+  String s2 = 'it\'s easy';
+ /*
+  *error string explination below:     String s2 = 'it's easy';   
+    
+     in this string ('it's easy)  in according to the compiler,
+     single colon open and and close after (it) so remaning strings
+     is not valided, during running the program it will show error,
+     
+     after that we use backslash(\)symbol just after (it) or
+     (another words which has end with single colon) 
+   
+  */
+  
+  //For Many Strings Uses:
+  
+  String s3 = 'Hii..' + 'I am jany Jons';
+    print(s3);
+  /* when we use + sign for my strings uses then its called 
+   * bad programing...
+  
+  
+  *  In dart we have flaxibility means we dont need + sign in dart*/
+  
+  //for example:
+  String s4 = 'Hii..' 'I am jany jons';
+    print(s4);
+    
+  //--------------------**************************------------------------------//
+  
+//  2.  //  NOW WE SEEN STRINGS INTERPOLATIONS :
+  
+  String s5 = 'Janny';
+    String s6 = 'My name is' +s5;
+       print(s6);
+            /* We again tell us + sign is shown bad programing so we dont
+                use + sign in dart ; 
+            */           
+            
+  /* + sign replace with prefix (  $ or ${statement}  its 
+   * called string tuplations);
+   * ANOTHER MEANS : Use [ " My name is $name " ] instead of [ " My name is " + name]
+  */
+  
+  // Example first :
+ String s7 = 'Janny jons';
+  String s8 = 'Here\'s $s7';
+    String s9 = 'Here\'s ${s7}';
+      String s10 = 'Here\s $s7' '& My Proffesion is, I am Programmer'
+                    'and Janny Jons is in ${s7.length} characters';
+   print(s8);
+    print(s9);
+      print(s10);
+  
+  
+  // Example Second:
+  int len, bre;
+    len = 10;
+      bre = 20;
+        print("length $len * breadth $bre : ${len * bre}");
+        
+        print('sum of $len & $bre : ${len + bre}');
+    
+}
