@@ -1,0 +1,71 @@
+// Control Flow Statements:
+// 1. IF & ELSE STATEMENT:
+//  How to Use IF & ELSE STATEMENT ?
+// ALSO IF & ELSE, IF LADDER STATEMENTS :
+
+void main()
+{
+  var salary = 20000;
+  
+  //ONLY IF CONDITION :
+  
+  if (salary >= 10000);
+  {
+    print('Congratulations, You got promotion ');
+  }
+  
+  // IF ELSE CONDITION :
+  var number = 1000000000;
+  
+  if ( number == 1000000000 )
+  {
+    print('calling');
+  }
+  else 
+  {
+      print('incomplete number');
+  }
+ 
+  
+  // IF ELSE IF LADDER :
+   var marks = 100;
+  
+  if( marks >= 90 && marks <= 100)
+  {
+    print('grade A+');
+  }
+  else if ( marks >= 80 && marks < 90 )
+  {
+    print('grade A');
+  }
+  else if ( marks >= 70 && marks < 80)
+  {
+    print('grade B');
+  }
+  else if( marks >= 60 && marks < 70)
+  {
+    print('grade C');
+  }
+  else if( marks >= 50 && marks < 60)
+  {
+    print('grade D');
+  }
+  else if( marks >= 30 && marks < 50)
+  {
+    print('grade E'); 
+  }
+  else if( marks >= 0 && marks < 30 )
+  {
+    print('fail');
+  }
+  else
+  {
+    print("Invalid Marks")
+  }
+
+}
+
+
+
+
+
