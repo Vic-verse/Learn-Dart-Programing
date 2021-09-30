@@ -1,0 +1,70 @@
+// Defining Constants :- 'final' & 'const' Keyword 
+
+//---------------------------------------------------//
+
+/* How to define constant ?
+ * final keyword
+ * const keyword
+*/
+
+//----------------------------------------------------//  
+
+/* if you never want to change a value then use final & const keyword
+ * final name = "Peter";
+ * const PI = 3.14;
+*/
+
+//------------------------------------------------------//
+
+/* Difference between final & const :
+  * final variable can only be set once and it is initialized when accessed.
+  * const variable is also be final but it is a compile time constant.
+*/
+
+/* Instance variable can be final but cannot be const.
+ *  If you want a Constant for Class level then make it (static const).
+*/
+
+void main()
+{
+  final name = 'Vivek';
+ 
+  
+  /* error in thes statement explination below:  name = 'Utkarsh'; 
+    where we use final keyword then the value is always fixed cannot changed again & again. 
+  */
+  
+  final number = 24;
+  final doubleValue = 24.9;
+  final boolean = true;
+  
+  final String s1 = 'India';
+  
+ //wih final or const keyword define datatype its optional
+  
+//--------------------------------------------------------//
+  
+
+  //Constant Keyword
+  
+ const String s2 = 'Janny jons';
+ //wih final or const keyword define datatype its optional
+ const s3 = 'Janny jons';
+  
+ const n1 = 55;
+ const floatingN1 = 22.4;
+  
+}
+
+
+class Circle{
+  // as a class we easily use final keyword 
+  final n2 = 21;
+  /*
+    as a class we cant easily define const keyword , if we use const keyword 
+    then also use static with const keyword.
+  */
+  
+  static const n3 = 24;
+  static const n4 = 20.44;
+} 
