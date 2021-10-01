@@ -1,0 +1,8 @@
+introduce to Iterators : 
+Exploring FOR Loops :  Syntax : for(initializer ; condition; increment/decrement){Statements;}
+Exploring WHILE Loops : Syntax : while (condition) {Statements;}
+Exploring DO-WHILE Loops : Syntax : do {Statements;} while (conditions);
+Using break keyword :
+Using Labels for loops :
+Nested FOR Loops :
+Using continue keyword :
