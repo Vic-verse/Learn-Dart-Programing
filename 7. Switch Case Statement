@@ -1,1 +1,65 @@
+  /* Switch Case Statement :
+     1. it is applicable for only (int / String) not for (boolean / double)
+     2. Its Similar to IF ELSE IF LADDER STATEMENTS.
+  */   
+---------------------------------------------------------------------------------
+void main()
+  {
+    String grade = 'A';
+  
+//------------------------------------------------------//
+  
+ Syntax :  switch(Variable)    // (Variable) means (Objects) such as (grade)
+            {
+              case 1 :
+                         // Execute code here;
+                            break;
+      
+      
+              case 2 :
+                         // Ececute code here;
+                            break;
+    
+              default :
+                         // Execute code here;
+             }
+  
+//------------------------------------------------------//  
+  
+  
+  
+  switch(grade) 
+    {
+      case 1 : 
+               print('You got Grade A+, Congratulations');   
+                break;
+      
+      case 2 :
+               print('You got Grade A, Congratulations');
+                break;
+  
+      case 3 : 
+               print('You got Grade B, Congratulations');
+                break;
+      
+      case 4 :
+               print('You got Grade C, But Work Hard');
+                break;
+      
+      default : print('oops.. Failed')
+                  break;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
