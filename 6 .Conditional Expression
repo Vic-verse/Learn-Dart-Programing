@@ -1,0 +1,112 @@
+/* Conditional Expression :
+    A. Two types of conditional expression.
+        
+        1.  condition ? exp1 :  exp2
+        explination : if condition  is true, evaluates expr1(and return its value),
+                       OtherWise, Evaluates and returns the value of expr2.
+        
+        2.  exp1 ?? exp2
+        explination : if expr1 is non-null , return its value; 
+                       Otherwise, evaluates and return the value of exp2.
+*/
+
+//-----------------------------
+// 1. condition ? exp1 : exp2
+//-----------------------------
+
+void main(
+       {
+       
+         int a, b;
+         
+         a = 30;
+         b = 40;
+         
+                  
+              /* find Smaller Number : Through two way 
+                    a. IF ELSE CONDITION
+                    b. CONDITIONAL EXPRESSION
+              */
+         
+   // a. Using IF ELSE CONDITION :
+   //--------------------------------------------------//      
+        
+            Syntax :    if(condition)
+                         {Staement};
+                        else
+                         {Statement};
+                       
+    //------------------------------------------------//     
+         
+         if ( a < b )
+         {
+           print('$a is Smaller Number') ;
+         }
+         else
+         {
+           print('$b is Higher Number') ;
+         }
+         
+         
+    // b. Using Conditional Expression :
+ //----------------------------------------------------//      
+         Syntax : condition ? exp1 : exp2 ;
+ //----------------------------------------------------//                   
+       a < b  ?   print('$a is Smaller Numner')  :  print('$b is Higher Number'); 
+                   
+      int smallerNumber = a < b ? a : b ;
+                            //  After Question mark a : b shown given values ;           
+  
+         
+
+//-----------------------------        
+//  2. exp1 ?? exp2 
+//-----------------------------         
+
+  String name = 'Tom' ;
+ //------------------------------------------------------------//        
+         Syntax :      exp1 ?? exp2 ;              
+ //------------------------------------------------------------//
+  String nameToPrint = name ?? 'Guast User' ;
+  print(nameToPrint);
+         
+         // in case
+         
+        // if name is null then Shown exp2 :
+      
+       String name2 = null ;
+                  Syntax =   exp1 ??   exp2 ;
+       String nameToPrint2 = name2 ?? 'Guest User';
+       print(nameToPrint2);
+}
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
