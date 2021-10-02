@@ -1,0 +1,41 @@
+// Exploring WHILE LOOP :
+
+  void main()
+  {
+    // Simple While Loop Program :
+//-----------------------------------------------//    
+ Syntax :  while (condition)
+          {
+            Statement
+            increment/decrement counter;
+          }
+//-----------------------------------------------//    
+    
+    int = 1 
+    while(i <= 10)
+      {
+        print(i);
+        i++;
+      }
+    
+   // for Even Number
+   while( i <= 20)
+   {
+     if(i % 2 == 0)
+     {
+      print(i);  
+     }
+     
+   }
+    
+   //2. for Odd number
+    while (i <= 20)
+    {
+      if(i % 3 == 0)
+      {
+        print(i);
+      }
+    }
+ 
+  
+  }
