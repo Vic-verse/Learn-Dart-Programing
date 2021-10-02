@@ -1,0 +1,36 @@
+//EXPLORING DO-WHILE LOOP
+
+void main()
+  {
+      //simple do-while loop program :
+//------------------------------------------  
+  Syntax : do
+            { Statement;
+              increment/decrement counter;    
+            }
+          while(condition);
+//------------------------------------------    
+    
+  int = 1;
+  
+  do
+  {
+    print(i);
+    i++;
+  }
+  while (i <= 10);
+  
+  
+      // Even Number program :
+  
+  do
+  {
+    if( i % 2 == 0)
+    {
+      print(i);   
+    }
+   
+    i++;
+  }
+  while( i <= 10);
+}
