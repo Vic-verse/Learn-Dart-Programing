@@ -1,0 +1,109 @@
+Skip to content
+vivek9828
+/
+Learn-Dart-Programing
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+More
+Learn-Dart-Programing
+/
+8. For Loop Program
+in
+main
+ // Exploring FOR Loop :
+
+void main()
+{
+//------------------------------------------------------------//  
+  Syntax : for (initializer; condition; increment/decrement)
+            {
+              Statements;
+            }
+//------------------------------------------------------------//  
+  
+// 1. Simple For loop program 
+  for(int i = 0; i<=10; i++)
+  {
+    print(i);
+  }
+  
+// 2. Find even numbers :
+  
+  for (int a = 1; a<=20; a++)
+  {
+    if(a % 2 == 0)
+    {
+      print(a);
+    }
+  }
+
+// 3. Find Odd Numbers :
+  
+  for (int b = 1; b<=20; b++)
+  {
+    if(b % 3 == 0)
+    {
+      print(b);
+    }
+  }
+//-------------------------------------------------------------------- 
+/* 
+  4. Another form of [For ..in loop] : 
+  
+  Suppose we have some many types of fruits so making a list for fruits ;
+    
+  Note :  In Dart We don't uses of Array, we uses of List 
+  
+  (Array) instead of (List) in Dart...
+
+*/    
+//---------------------------------------------------------------------  
+
+  List fruitsList = 'Mango', 'Banana', 'Graps', 'Apple', 'Chiku';
+ /* 
+    Explanation : We have some many types of fruits, These many types of fruits for 
+                  we making a list, And List is a collection of Datatype or Here we
+                  have a List of collection of String Values in which String is a 
+                  Datatype.
+ */
+  
+//  Now we uses of (..in) in FOR loop :
+ 
+  
+  for (String fruit in fruitsList)
+    /*
+      In this FOR LOOP, Upper side we made a List for (fruits) or (fruitsList) variable name 
+      we declare in another (fruit) which Datatype is String through FOR LOOP ..
+      
+      Which means, Now It's called ( List is collection of Datatype  or here 
+                   List is a collection of String Values ) 
+    */
+    
+  {
+    print(fruit);
+  }
+}
+Commit new file
+Commit summary
+Create 8. For Loop Program
+Optional extended description
+Add an optional extended description…
+ Commit directly to the main branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
